@@ -6,7 +6,7 @@
 
 A professional Node.js tool for extracting Jira issues using JQL queries and generating beautiful HTML reports. Built with clean architecture principles and comprehensive error handling.
 
-## ✨ Features
+## Features
 
 - **JQL Query Execution** - Execute custom JQL queries against Jira REST API v3
 - **HTML Report Generation** - Beautiful, responsive reports with issue details
@@ -15,7 +15,7 @@ A professional Node.js tool for extracting Jira issues using JQL queries and gen
 - **Robust Error Handling** - Detailed error messages for debugging
 - **Flexible Authentication** - Environment variables or CLI arguments
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -33,7 +33,7 @@ cp .env.example .env
 node index.js https://your-company.atlassian.net "1.0.0"
 ```
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 14.0.0 or higher
 - Jira API token ([Generate here](https://id.atlassian.com/manage-profile/security/api-tokens))
@@ -68,7 +68,7 @@ node index.js https://mycompany.atlassian.net "Release-2.0"
 node index.js https://mycompany.atlassian.net "v1.2.0" "ATATT3xFfGF0..."
 ```
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```
 jira-jql-extractor-v2/
@@ -85,7 +85,7 @@ jira-jql-extractor-v2/
 └── reports/              # Generated HTML reports
 ```
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 ```bash
@@ -99,7 +99,7 @@ The test suite covers:
 - File operations
 - Integration workflows
 
-## 📊 Generated Reports
+## Generated Reports
 
 Reports are saved to the `reports/` directory with the format:
 - `jira-issues-{fix-version}-{timestamp}.html`
@@ -110,7 +110,7 @@ Each report includes:
 - Direct links to Jira issues
 - Responsive design for all devices
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Run tests in watch mode
@@ -123,7 +123,7 @@ npm run lint
 npm run lint:fix
 ```
 
-## 🏗️ Technical Details
+## Technical Details
 
 ### Key Components
 
@@ -141,7 +141,7 @@ The tool provides specific error messages for:
 - Rate limiting (429)
 - Invalid configuration
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -149,11 +149,11 @@ The tool provides specific error messages for:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **Ivan Duarte**
 - GitHub: [@ivansing](https://github.com/ivansing)
