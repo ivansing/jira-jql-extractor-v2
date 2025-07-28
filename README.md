@@ -39,7 +39,7 @@ node index.js https://your-company.atlassian.net "1.0.0"
 - Jira API token ([Generate here](https://id.atlassian.com/manage-profile/security/api-tokens))
 - Access to an Atlassian Jira instance
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Setup
 
